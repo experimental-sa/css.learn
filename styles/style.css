@@ -1,0 +1,39 @@
+/*h1{color: green;
+   text-align: center}
+#heading{color: blue}
+.heading{color: red}*/
+@font-face{font-family: "roboto slab";
+           src: url("font/RobotoSlab-VariableFont_wght.ttf")}
+.box{font-family: "roboto slab",sans-serif;
+     font-weight: bold;
+     font-size: 30px;
+     background-color: aquamarine;
+     color: green;
+/*
+     border-color: darkgreen;
+     border-width: 3px;
+     border-style: solid;
+*/
+     width: 200px;
+     padding: 20px;
+     text-align: center;
+     margin: auto;
+     margin-top: 50px}
+/*body{background-color: rgb(127 255 212)}*/
+body{font-family: "roboto slab"}
+.article{width: 50%;
+         margin: auto;
+         border: 1px solid #DDDDDD;
+         border-radius: 5px;
+         padding: 20px
+         }
+.article-image{width: 30%;
+               float: right;
+               margin-left: 10px
+              }
+.heading{color: #348182}
+.sub-heading{color: #999}
+.article-paragraph{color: #888;
+                   text-align: justify;
+                   }
+/**{border: 1px solid blue}*/

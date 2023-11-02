@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body{}
+
+.profile-name{font-family: Agbalumo;
+              font-weight: lighter}
+
+.role{font-family: sans-serif;
+      font-weight: lighter}
+
+.location{font-weight: lighter}
+
+.section{font-family: sans-serif;
+         clear: both;}
+
+.detail{font-family: arial;
+        font-weight: lighter}
+
+.info{font-family: sans-serif;
+      font-weight: bold}
+
+.profile-info{float: left}
+
+.profile-picture{float: left;
+                margin: 1rem;
+                width: 10%}
+
+.profile-name{margin: 0}
+
+.role{margin: 0}
+
+.location{margin: 0.5rem 0rem
+1rem 0rem}
+
+.about{width: 50%;
+    float: left;
+    clear: left;
+    padding-right: 2rem;
+    border-right: 1px solid grey}
+
+.skills{float: left;
+        widows: 20%;
+        padding-left: 2rem}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Signup - Strat Hawk</title>
+        <link rel="stylesheet" href="strawt%20style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="logo">Strat Hawk</h1>
+            <a href="index.html" class="navitem">Home</a>
+            <a href="bookings.html" class="navitem">My bookings</a>
+            <a href="Desination.html" class="navitem">Destinations</a>
+            <a href="Login.html" class="navitem">Login</a>
+            <a href="Signup.html" class="navitem">Signup</a>
+        </div>    
+        <h2 class="heading">Signup</h2>
+        <form action="Login.html">
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>Title<br>
+                    <label for="mr">Mr.</label>
+                    <input type="radio" id="mr" name="title" required>
+                    <label for="mrs">Mrs.</label>
+                    <input type="radio" id="mrs" name="title">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="first name">First Name</label><br>
+                    <input type="text" id="first name" name="first name" placeholder="Enter first name " required>
+                </td>
+                <td>
+                    <label for="last name">Last Name</label><br>
+                    <input type="text" id="last name" name="last name" placeholder="Enter last name " required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$
+                    " title="xxxx@yyyx.zzz format" required>
+                </td>
+                <td>
+                    <label for="mobile number">Mobile number</label><br>
+                    <input type="text" placeholder="input phone number" id="mobile number" name="mobile number" pattern="[0-9]{10}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Input Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </td>
+                <td>
+                    <label for="confirm">Confirm Password</label><br>
+                    <input type="password" id="confirm" name="confirm" placeholder="Rewrite password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="language">Preferred Language</label><br>
+                    <select id="language" name="language" required>
+                        <option selected>English</option>
+                        <option>Chinese</option>
+                        <option>Spanish</option>
+                        <option>Hindi</option>
+                        <option>Portugese</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="checkbox" id="newsletters" name="newsletters">
+                    <label for="newsletters">Receive newsletters</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Register">
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </form>    
+    </body>
+</html>
